@@ -11,6 +11,10 @@ jobs:
      uses: actions/checkout@v4.2.2
    - name: display a success page
      run: echo "Welcome to Github Actions"
+   - name: display the present working directory
+     run: 
+      pwd
+      ls
 
      
    
