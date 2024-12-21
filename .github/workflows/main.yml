@@ -9,4 +9,8 @@ jobs:
   steps: 
    - name: checkout code
      uses: actions/checkout@v4.2.2
+   - name: display a success page
+     uses: echo "Welcome to Github Actions"
+
+     
    
