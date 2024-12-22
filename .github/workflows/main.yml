@@ -16,8 +16,10 @@ jobs:
       pwd
       ls
    - name: Setup Java JDK
-     uses: actions/setup-java@v4.6.0
-     
+     uses: actions/setup-java@v4.6.0 
+     with: 
+      distribution: 'temurin'
+      
    
     
 
